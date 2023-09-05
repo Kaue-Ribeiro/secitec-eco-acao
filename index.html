@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://i.pinimg.com/564x/66/85/1b/66851b85869c406588a615b5c3a3f2bc.jpg" type="image/x-icon">
+    <title>Eco-Ação</title>
+</head>
+<body>
+    <style>
+        @font-face {
+    font-family: ynit;
+    src: url(KaushanScript-Regular.ttf);
+}
+body{
+    background-color: whitesmoke;
+}
+/*------------------------------------------parte do elemento cab---------------------------------*/
+
+.cab{
+    padding: 10px;
+    margin-bottom: 25px;
+    /*background-color: #dfdede;*/
+    background-image: url(https://img.freepik.com/fotos-premium/green-palm-leaves-with-copy-space_41969-17057.jpg);
+    animation: nome 3s ease-in-out;
+}
+.cab .b_bar{
+    position: fixed;
+}
+.cab .b_bar:hover .barra{display: block;}
+.cab .barra{
+    background-color: #161911;
+    position: fixed;
+    width: 200px;
+    color: white;
+    display: none;
+}
+.cab .barra .tp h3{
+    border: 1.5px solid white;
+    padding: 5px;
+}
+.cab .barra .tp span{
+    display: none;
+}
+/*-------*/
+.cab .barra .tp .f1:hover .s1{
+    display: block;
+}
+.cab .barra .tp .f2:hover .s2{
+    display: block;
+}
+.cab .barra .tp .f3:hover .s3{
+    display: block;
+}
+.cab .barra .tp .f4:hover .s4{
+    display: block;
+}
+.cab .barra .tp .f5:hover .s5{
+    display: block;
+}
+
+/*---------------*/
+.cab .ig img{
+    width: 1000px;
+    margin-left: 150px;
+    height: 500px;
+    border-radius: 80px 0px;
+    animation: nom 1.5s ease-in-out;
+}
+.cab .text h1{
+    font-family: ynit;
+    color: #80b187;
+    animation: no 3s ease-in-out;
+    position: absolute;
+    top: 160px;
+    font-size: 95px;
+    left: 500px;
+}
+@keyframes no{
+    0%{
+        color: white;
+    }
+    100%{
+        color: #93b197;
+    }
+}
+@keyframes nom{
+    0%{
+        border-radius:0px 80px;
+    }
+    100%{
+        border-radius:80px 0px ;
+    }
+}
+@keyframes nome{
+    0%{
+        background-color: #80b187;
+        color: white;
+    }
+    100%{
+        background-color: #dfdede;
+        color: #80b187;
+    }
+}
+
+/*------------------------------------------parte do elmento p1-----------------------------------*/
+.p1{
+    padding: 15px;
+    padding-bottom: 15px;
+    background-color: #153828;
+}
+.p1 .text p{
+    color: white;
+    position: absolute;
+    left: 500px;
+    top: 650px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: slide 3s ease-in-out;
+}
+.p1 .text h1{
+    color: white;
+}
+
+      @keyframes slide {
+        0% {
+          transform: translateX(1500px);
+          border-radius: 60px 60px;
+        }
+      
+        100% {
+          transform: translateX(0px);
+          border-radius: 60px 0px;
+        }
+      }
+.p1 .ig img{
+    border-radius: 60px 0px;
+    transition: width 2s ease-in-out;
+    display: block;
+    animation: slide 2s ease-in-out;
+}
+
+/*--------------------------------------parte do elemento p2-------------------------------------*/
+.p2{
+    background-color: #F4F1E8;
+    padding: 20px;
+}
+.p2 .ig img{
+    width: 790px;
+    height: 400px;
+}
+.p2 .ig figure{
+    margin-left: 250px;
+}
+.p2 .text h1{
+    color: #9B4819;
+}
+
+/*--------------------------------------parte do elemento rod-------------------------------------*/
+.rod{background-color: #623E2A; color: white; padding: 15px; padding-bottom: 50px;}
+.rod .text .tp{position: absolute;left: 250px;}
+.rod .text .d1{position: absolute; left: 0px; border: 1px solid rgb(255, 255, 255); width: 200px; height: 50px; padding: 10px;}
+.rod .text .d2{position: absolute; left: 400px; border: 1px solid rgb(255, 255, 255); width: 200px; height: 50px; padding: 10px;}
+.rod .text .d3{position: absolute; left: 800px; border: 1px solid rgb(255, 255, 255);width: 200px; height: 50px; padding: 10px;}
+
+.rod .text .d1 span{display: none;}
+.rod .text .d2 span{display: none;}
+.rod .text .d3 span{display: none;}
+
+.rod .text .d1:hover {height: 100px;}
+.rod .text .d2:hover {height: 100px;}
+.rod .text .d3:hover {height: 100px;}
+
+.rod .text .d1:hover span{display: block;}
+.rod .text .d2:hover span{display: block;}
+.rod .text .d3:hover span{display: block;}
+.rod .ig img{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+.rod .ig{
+    margin: 5px;
+}
+.rod .ig .i1{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+    </style>
+    <!--cab https://i.pinimg.com/564x/05/eb/5d/05eb5d9a13ca882fc08581c6a6d511ef.jpg-->
+    <div class="cab">
+        <div class="b_bar">
+            <img src="https://www.freeiconspng.com/thumbs/menu-icon/menu-icon-24.png" width="20px" height="20px" class="menu">
+            <div class="barra">
+                <h1>Descrição do evento</h1>
+                <div class="tp">
+                    <div class="f1"><h3>Mesa Redonda</h3>  <span class="s1"><i></i></span></div>
+                    <div class="f2"><h3>Palestras</h3>  <span class="s2"><i>"A popularização, inclusâo e difusâo do conhecimento científico como estratégia de oportunidades e transformações social para a juventude."<br> palestrante: Marcio de Almeida </i></span></div>
+                    <div class="f3"><h3>Mine cursos</h3>  <span class="s3"><i></i></span></div>
+                    <div class="f4"><h3>apresentações</h3>  <span class="s4"><i></i></span></div>
+                    <div class="f5"><h3>salas temáticas</h3>  <span class="s5"><i></i></span></div>
+                </div>
+            </div>
+        </div>
+        <div class="ig">
+            <img src="https://img.freepik.com/fotos-premium/green-palm-leaves-with-copy-space_41969-17057.jpg" alt="">
+        </div>
+        <div class="text">
+            <h1>Eco-Ação</h1>
+        </div>
+        
+    </div>
+
+    <!--p1-->
+    <div class="p1">
+        <div class="ig">
+            <img src="https://cdn.dribbble.com/userupload/3496838/file/original-1ddcaaafc2719d4fb2ad5d2979d0638a.png?resize=400x0" alt="">
+        </div>
+        <div class="text">
+            <h1>Desenvolvimento Sustentável</h1>
+            <p>"O desenvolvimento que procura satisfazer as necessidades da geração atual, sem <br>comprometer a capacidade das gerações futuras de satisfazerem as suas próprias <br>necessidades, significa possibilitar que as pessoas, agora e no futuro, atinjam um <br>nível satisfatório de desenvolvimento social, econômico e de realização humana e <br>cultural, fazendo, ao mesmo tempo, um uso razoável dos recursos da terra e <br>preservando as espécies e os habitats naturais." <br> <br>   — Relatório Brundtland</p>
+        </div>
+    </div>
+
+    <!--p2-->
+    <div class="p2">
+        <div class="text">
+            <h1>Sociedade De Consumo</h1>
+        </div>
+
+        <div class="ig">
+            <figure>
+                <!--https://marcaambiental.com.br/wp-content/uploads/2019/04/residuo.jpg-->
+                <img src="https://media.licdn.com/dms/image/D4D12AQGEdOGgzhK3Ig/article-cover_image-shrink_600_2000/0/1656639189195?e=2147483647&v=beta&t=xuqnipX52C1_WI3X1dKiqPPGqbCiMoDGGcsRJQHszOo">
+                <figcaption class="desc">
+                    Entende-se por sociedade de consumo a era contemporânea do capitalismo em que o <br>crescimento econômico e a geração de lucro e riqueza encontram-se predominantemente <br>pautados no crescimento da atividade comercial e, consequentemente, do consumo.
+                </figcaption>
+            </figure>
+            
+        </div>
+    </div>
+
+    <!--rod-->
+    <div class="rod">
+        <div class="text">
+            <h1>Sobre o evento da Secitec</h1>
+            <div class="tp">
+                <div class="d1"><h3>Tema do evento</h3><span><i>Ciências básicas para o <br>Desenvolvimento Sustentável</i></span></div>
+
+            <div class="d2"><h3>Data do evento</h3><span><i>17 à 20 de outubro de 2023</i></span></div>
+
+            <div class="d3"><h3>Local do evento</h3><span>end. IFBA-Brumado</span></div>
+            </div>
+        </div>
+        <div class="ig">
+            <a href="https://www.instagram.com/secitec.bru/" target="_blank"><div class="i1"><img src="https://i0.wp.com/www.multarte.com.br/wp-content/uploads/2019/03/logo-instagram-png-fundo-transparente8.png?resize=696%2C696&ssl=1" alt=""></div></a>
+            <img src="ifba.png" alt="">
+        </div>
+    </div>
+
+</body>
+</html>
